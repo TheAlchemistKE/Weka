@@ -4,7 +4,11 @@ class TasksController < ApplicationController
   # GET /tasks
   # GET /tasks.json
   def index
-    @tasks = Task.all
+    if current_user.nil?
+      redirect_to '/login'
+    else
+      @tasks = Task.all
+    end
   end
 
   # GET /tasks/1
@@ -13,7 +17,7 @@ class TasksController < ApplicationController
 
   # GET /tasks/new
   def new
-    @task = Task.new
+    @task = current_user.tasks.build
   end
 
   # GET /tasks/1/edit
@@ -22,7 +26,7 @@ class TasksController < ApplicationController
   # POST /tasks
   # POST /tasks.json
   def create
-    @task = Task.new(task_params)
+    @task = current_user.tasks.build(task_params)
 
     respond_to do |format|
       if @task.save

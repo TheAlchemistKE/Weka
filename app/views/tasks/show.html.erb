@@ -1,0 +1,24 @@
+<!--<p id="notice"><%#= notice %></p>-->
+
+<nav>
+  <div class="appbar">
+    <%= link_to tasks_path do %>
+      <i class="fas fa-arrow-left"></i>
+    <% end %>
+    <h3><%= @task.name %></h3>
+    <a href="login.html"><i class="fas fa-search"></i></a>
+  </div>
+</nav>
+<div class="transaction">
+  <div class="transaction-branding">
+    <% if @task.image.exists? %>
+      <%= image_tag @task.image.url %><br/>
+    <% end %>
+    <p><%= @task.name %></p>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veniam voluptatem qui ea placeat voluptates libero tempora dolores quo dolor.</p>
+  <div class="transaction-duration">
+    <p>Time Spent</p>
+    <p><%= @task.amount %> minutes</p>
+  </div>
+</div>

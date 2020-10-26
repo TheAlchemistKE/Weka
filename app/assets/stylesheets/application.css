@@ -240,4 +240,52 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
+.profile-section {
+    background-color: #3778c2;
+    background-image: linear-gradient(315deg, #009ffd 0%, #3778c2 74%);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+.profile-section img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile-section ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: justify;
+    color: #fff;
+}
+
+.profile-section ul li {
+    padding: 20px 40px;
+    border-bottom: 1px #fff solid;
+}
+
+.profile-section ul li a, .profile-section ul li .name {
+    color: #fff;
+    font-size: 18px;
+}
+
+.profile-section ul li .name {
+    text-align: center;
+}
+
+.profile-section ul li:nth-child(1) {
+    border: none;
+}
+
 /*# sourceMappingURL=style.css.map */

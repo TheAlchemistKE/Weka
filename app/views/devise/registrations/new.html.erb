@@ -12,6 +12,13 @@
   <%= f.error_notification %>
 
   <div class="form-actions">
+    <%= f.input :name,
+                required: true,
+                autofocus: true,
+                label: false,
+                placeholder: 'Full Name',
+                input_html: { class: 'input_field'}%>
+
     <%= f.input :email,
                 required: true,
                 autofocus: true,

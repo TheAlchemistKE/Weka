@@ -5,7 +5,6 @@ class TasksController < ApplicationController
   def index
     @total_time = current_user.tasks.sum(:amount)
     @tasks = current_user.tasks.order(created_at: :desc)
-
   end
 
   # GET /tasks/1

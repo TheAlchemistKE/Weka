@@ -7,7 +7,7 @@ describe 'User Signup and Login', type: :feature do
     @test_user = User.create!({ name: 'Kelyn',
                                 email: '234@gmail.com',
                                 password: 'Kelyn@2020',
-                                password_confirmation: "Kelyn@2020"})
+                                password_confirmation: 'Kelyn@2020' })
   end
   it 'Check that you get redirected to /profile.' do
     visit '/users/sign_up'

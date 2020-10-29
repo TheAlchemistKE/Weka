@@ -7,7 +7,7 @@ describe 'Creating a Group', type: :feature do
     @test_user = User.create!({ name: 'Kelyn',
                                 email: '234@gmail.com',
                                 password: 'Kelyn@2020',
-                                password_confirmation: "Kelyn@2020"})
+                                password_confirmation: 'Kelyn@2020' })
     visit 'users/sign_in'
     fill_in 'user_email', with: @test_user.email
     fill_in 'user_password', with: @test_user.password

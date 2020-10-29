@@ -11,7 +11,7 @@
     <%= f.input :amount,
                 label: false,
                 placeholder: 'Task Duration',
-                input_html: { class: "input_field" } %>
+                input_html: { class: "input_field", id: "amount" } %>
     <%= f.input :icon, as: :file %>
     <%= f.input :group_id, :collection => @groups, :label_method => :name, :value_method => :id,:label => "Group" ,:include_blank => true %>
   </div>

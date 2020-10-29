@@ -11,9 +11,7 @@
 </nav>
 <div class="transaction">
   <div class="transaction-branding">
-    <% if @task.image.exists? %>
-      <%= image_tag @task.image.url %><br/>
-    <% end %>
+    <%= image_tag @task.icon %><br/>
     <p><%= @task.name %></p>
   </div>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veniam voluptatem qui ea placeat voluptates libero tempora dolores quo dolor.</p>

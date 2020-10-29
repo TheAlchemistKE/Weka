@@ -15,10 +15,7 @@
   <% @tasks.each do |task| %>
     <%= link_to task do %>
       <div class="card">
-        <%# if task.image.exists? %>
-<!--          <%#= image_tag task.image.url %><br/>-->
-        <%# end %>
-<!--        <img src="../images/logo.jpeg" alt="Card Image">-->
+        <%= image_tag(task.icon) if task.icon.attached? %>
         <div class="card-details">
           <p class="title"><%= task.name %></p>
           <p class="task-date"><%= task.created_at %></p>

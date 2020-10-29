@@ -5,7 +5,10 @@
 
   <div class="form-inputs">
     <%= f.input :name %>
-    <%#= f.input :icon %>
+    <%= f.simple_fields_for :icon, label: false do |asset_fields| %>
+      <%= asset_fields.input :icon, as: :file, input_html: { class: "file-upload"} %>
+    <%- end %>
+
   </div>
 
   <div class="form-actions">

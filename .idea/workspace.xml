@@ -10,7 +10,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="Edit out the application_controller.rb to allow for the addition of permitted params for devise." />
+    <list default="true" id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Weka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Weka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/group.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/group.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/task.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/groups/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/groups/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +62,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -61,31 +79,11 @@
     </option>
   </component>
   <component name="RunManager" selected="Rails.Development: Weka">
-    <configuration default="true" type="RackRunConfigurationType" factoryName="Rack">
-      <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
-      <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="config.ru" />
-      <RACK_CONFIG_SETTINGS_ID NAME="RACK_SERVER_TYPE" VALUE="Default" />
-      <RACK_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Development: Weka" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="Weka" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -109,7 +107,7 @@
       <module name="Weka" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -132,7 +130,7 @@
     <configuration name="spec: Weka" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="Weka" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -155,7 +153,7 @@
     <configuration name="test: Weka" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="Weka" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -180,7 +178,7 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="" />
@@ -199,6 +197,7 @@
       <workItem from="1603951247792" duration="11261000" />
       <workItem from="1603977373679" duration="240000" />
       <workItem from="1603977661929" duration="788000" />
+      <workItem from="1603985588128" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
       <created>1603745762878</created>
@@ -238,38 +237,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1294.741@72.27.1294.741" timestamp="1603465087626" />
-    <state width="1294" height="537" key="GridCell.Tab.0.bottom" timestamp="1603977106783">
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom" timestamp="1603991058582">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603977106783" />
-    <state width="1294" height="537" key="GridCell.Tab.0.center" timestamp="1603977106780">
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603991058582" />
+    <state width="1294" height="537" key="GridCell.Tab.0.center" timestamp="1603991058581">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1603977106780" />
-    <state width="1294" height="537" key="GridCell.Tab.0.left" timestamp="1603977106779">
+    <state width="1294" height="537" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1603991058581" />
+    <state width="1294" height="537" key="GridCell.Tab.0.left" timestamp="1603991058581">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1603977106779" />
-    <state width="1294" height="537" key="GridCell.Tab.0.right" timestamp="1603977106782">
+    <state width="1294" height="537" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1603991058581" />
+    <state width="1294" height="537" key="GridCell.Tab.0.right" timestamp="1603991058582">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1603977106782" />
-    <state width="1294" height="537" key="GridCell.Tab.1.bottom" timestamp="1603955594282">
+    <state width="1294" height="537" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1603991058582" />
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom" timestamp="1603991058583">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603955594282" />
-    <state width="1294" height="537" key="GridCell.Tab.1.center" timestamp="1603955594281">
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603991058583" />
+    <state width="1294" height="537" key="GridCell.Tab.1.center" timestamp="1603991058582">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1603955594281" />
-    <state width="1294" height="537" key="GridCell.Tab.1.left" timestamp="1603955594280">
+    <state width="1294" height="537" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1603991058582" />
+    <state width="1294" height="537" key="GridCell.Tab.1.left" timestamp="1603991058582">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1603955594280" />
-    <state width="1294" height="537" key="GridCell.Tab.1.right" timestamp="1603955594281">
+    <state width="1294" height="537" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1603991058582" />
+    <state width="1294" height="537" key="GridCell.Tab.1.right" timestamp="1603991058583">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1603955594281" />
+    <state width="1294" height="537" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1603991058583" />
     <state width="1294" height="611" key="GridCell.Tab.2.bottom" timestamp="1603891113882">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -304,6 +303,6 @@
     <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741@72.27.1294.741" timestamp="1603468868875" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Weka@Development__Weka.rcov" NAME="Development: Weka Coverage Results" MODIFIED="1603952072725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Weka" />
+    <SUITE FILE_PATH="coverage/Weka@Development__Weka.rcov" NAME="Development: Weka Coverage Results" MODIFIED="1603990789883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Weka" />
   </component>
 </project>

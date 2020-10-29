@@ -12,9 +12,7 @@
                 label: false,
                 placeholder: 'Task Duration',
                 input_html: { class: "input_field" } %>
-    <%= f.simple_fields_for :image, label: false do |asset_fields| %>
-      <%= asset_fields.input :image, as: :file, input_html: { class: "file-upload"} %>
-    <%- end %>
+    <%= f.input :icon, as: :file %>
     <%= f.input :group_id, :collection => @groups, :label_method => :name, :value_method => :id,:label => "Group" ,:include_blank => true %>
   </div>
 

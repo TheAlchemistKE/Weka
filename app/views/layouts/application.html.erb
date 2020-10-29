@@ -4,47 +4,15 @@
     <title>Weka</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc7e07711d.js" crossorigin="anonymous"></script>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="manifest" href="/manifest.json">
   </head>
 
   <body>
-  <nav class="navbar is-info">
-    <div class="navbar-brand">
-      <%= link_to root_path, class: "navbar-item" do %>
-        <h1 class="title is-5s is-info">Weka Pesa</h1>
-      <% end %>
-      <div class="navbar-burger burger" data-target="navbarExample">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-    <div id="navbarExample" class="navbar-menu ">
-      <div class="navbar-end pt-2 pr-2">
-        <div class="field is-grouped">
-          <p class="control">
-            <%if current_user%>
-              Logged in as: <%= current_user.name %>
-            <%end%>
-
-          </p>
-          <p class="control">
-          <div class="ml-3">
-            <%if current_user%>
-              <%= button_to "Log out", logout_path, class: "button is-info is-inverted"  %>
-            <%else%>
-              <%= link_to 'Log In', login_path, class: "button is-info is-inverted" %>
-
-              <%= link_to 'Sign up', signup_path, class: "button is-info is-inverted" %>
-            <%end%>
-          </div>
-          </p>
-        </div>
-      </div>
-    </div>
-  </nav>
     <%= yield %>
   </body>
 </html>

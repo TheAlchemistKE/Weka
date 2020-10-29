@@ -1,15 +1,25 @@
 
-<%= simple_form_for(@task) do |f| %>
+<%= simple_form_for(@task, html: {multipart: true }) do |f| %>
   <%= f.error_notification %>
   <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
 
-  <div class="form-inputs">
-    <%#= f.association :user %>
-    <%= f.input :name %>
-    <%= f.input :time_spent %>
+  <div class="form-action">
+    <%= f.input :name,
+                label: false,
+                placeholder: 'Task Name',
+                input_html: { class: "input_field" } %>
+    <%= f.input :amount,
+                label: false,
+                placeholder: 'Task Duration',
+                input_html: { class: "input_field" } %>
+    <%= f.simple_fields_for :image, label: false do |asset_fields| %>
+      <%= asset_fields.input :image, as: :file, input_html: { class: "file-upload"} %>
+    <%- end %>
+    <%= f.input :group_id, :collection => @groups, :label_method => :name, :value_method => :id,:label => "Group" ,:include_blank => true %>
   </div>
 
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
 <% end %>
+

@@ -14,8 +14,8 @@ class TasksTest < ApplicationSystemTestCase
     visit tasks_url
     click_on 'New Task'
 
+    fill_in 'Amount', with: @task.amount
     fill_in 'Name', with: @task.name
-    fill_in 'Time spent', with: @task.time_spent
     fill_in 'User', with: @task.user_id
     click_on 'Create Task'
 
@@ -27,8 +27,8 @@ class TasksTest < ApplicationSystemTestCase
     visit tasks_url
     click_on 'Edit', match: :first
 
+    fill_in 'Amount', with: @task.amount
     fill_in 'Name', with: @task.name
-    fill_in 'Time spent', with: @task.time_spent
     fill_in 'User', with: @task.user_id
     click_on 'Update Task'
 

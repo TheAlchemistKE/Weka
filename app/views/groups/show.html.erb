@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>User:</strong>
-  <%= @group.user_id %>
-</p>
+<%= @group.tasks.each do |task| %>
+  <p>
+    <strong>Name:</strong>
+    <%= task.name %>
+  </p>
+  <p>
+    <strong>Duration:</strong>
+    <p><%= task.amount %> minutes</p>
+  </p>
+<% end %>
 
-<p>
-  <strong>Task:</strong>
-  <%= @group.task_id %>
-</p>
-
-<%= link_to 'Edit', edit_group_path(@group) %> |
 <%= link_to 'Back', groups_path %>

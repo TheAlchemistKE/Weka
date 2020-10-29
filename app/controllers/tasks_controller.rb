@@ -1,10 +1,10 @@
 class TasksController < ApplicationController
-  before_action :set_task, only: [:show, :edit, :update, :destroy]
+  before_action :set_task, only: [:show, :edit,   :update, :destroy]
 
   # GET /tasks
   def index
-    @total_time = Task.sum(:amount)
-    @tasks = Task.order(created_at: :desc)
+    @total_time = current_user.tasks.sum(:amount)
+    @tasks = current_user.tasks.order(created_at: :desc)
   end
 
   # GET /tasks/1
@@ -14,6 +14,7 @@ class TasksController < ApplicationController
   # GET /tasks/new
   def new
     @task = current_user.tasks.build
+    @groups = Group.order(created_at: :desc)
   end
 
   # GET /tasks/1/edit
@@ -54,6 +55,6 @@ class TasksController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def task_params
-      params.require(:task).permit(:name, :amount, :user_id, :image)
+      params.require(:task).permit(:name, :amount, :user_id, :image, :group_id)
     end
 end

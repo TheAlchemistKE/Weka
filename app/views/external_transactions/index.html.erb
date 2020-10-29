@@ -4,7 +4,7 @@
       <i class="fas fa-bars"></i>
     <% end %>
     <h3>Transactions</h3>
-    <a href="login.html"><i class="fas fa-search"></i></a>
+    <a href="#"><i class="fas fa-search"></i></a>
   </div>
 </nav>
 <div class="aggregate">
@@ -18,10 +18,9 @@
         <%= image_tag(task.icon) if task.icon.attached? %>
         <div class="card-details">
           <p class="title"><%= task.name %></p>
-          <p class="task-date"><%= task.created_at.strftime("%Y-%m-%e") %></p>
+          <p class="task-date"><%= task.created_at %></p>
         </div>
         <p class="time-spent"><%= task.amount %> minutes</p>
-
       </div>
     <% end %>
   <% end %>

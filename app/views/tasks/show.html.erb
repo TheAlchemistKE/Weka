@@ -11,10 +11,10 @@
 </nav>
 <div class="transaction">
   <div class="transaction-branding">
-    <%= image_tag @task.icon %><br/>
+    <%= image_tag @task.icon if @task.icon.attached?%><br/>
     <p><%= @task.name %></p>
   </div>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veniam voluptatem qui ea placeat voluptates libero tempora dolores quo dolor.</p>
+  <strong>Group: <%= @task.group.name if @task.group %></strong>
   <div class="transaction-duration">
     <p>Time Spent</p>
     <p><%= @task.amount %> minutes</p>

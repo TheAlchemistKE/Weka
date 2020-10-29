@@ -6,7 +6,7 @@ class User < ApplicationRecord
   has_many :tasks
   has_many :groups
 
-  after_action :send_welcome_email
+  after_create :send_welcome_email
   def send_welcome_email
     WelcomeMailer.send_welcome_email(self).deliver
     redirect_to profile_index_path, alert: 'Thank you for signing up.'

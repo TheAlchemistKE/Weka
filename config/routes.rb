@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     resources :tasks
   end
   resources :profile
+  resources :external_transactions
   devise_for :users
   get '/user' => "profile#index", :as => :user_root
 

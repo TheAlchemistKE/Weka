@@ -5,4 +5,6 @@ class Task < ApplicationRecord
   scope :tasks_with_group, -> { where.not(group_id: nil).includes(:group) }
   scope :tasks_with_no_group, -> { where(group_id: nil) }
   has_one_attached :icon
+  validates :name, presence: true, length: {minimum: 3}
+  validates :amount, presence: true
 end

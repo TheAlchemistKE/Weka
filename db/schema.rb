@@ -36,15 +36,6 @@ ActiveRecord::Schema.define(version: 2020_10_28_150608) do
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
   end
 
-  create_table "groupings", force: :cascade do |t|
-    t.bigint "task_id", null: false
-    t.bigint "group_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["group_id"], name: "index_groupings_on_group_id"
-    t.index ["task_id"], name: "index_groupings_on_task_id"
-  end
-
   create_table "groups", force: :cascade do |t|
     t.string "name"
     t.binary "icon"
@@ -83,8 +74,6 @@ ActiveRecord::Schema.define(version: 2020_10_28_150608) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
-  add_foreign_key "groupings", "groups"
-  add_foreign_key "groupings", "tasks"
   add_foreign_key "groups", "users"
   add_foreign_key "tasks", "groups"
   add_foreign_key "tasks", "users"

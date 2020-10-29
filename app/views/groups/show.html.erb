@@ -1,14 +1,25 @@
-<p id="notice"><%= notice %></p>
-
+<nav>
+  <div class="appbar">
+    <%= link_to groups_path do %>
+      <i class="fas fa-arrow-left"></i>
+    <% end %>
+    <h3><%= @group.name %></h3>
+    <a href="login.html"><i class="fas fa-search"></i></a>
+  </div>
+</nav>
 <%= @group.tasks.each do |task| %>
-  <p>
-    <strong>Name:</strong>
-    <%= task.name %>
-  </p>
-  <p>
-    <strong>Duration:</strong>
-    <p><%= task.amount %> minutes</p>
-  </p>
+  <div class="transaction">
+    <div class="transaction-branding">
+      <%= image_tag task.icon if task.icon.attached?%><br/>
+      <p><%= task.name %></p>
+    </div>
+    <strong>Group: <%= task.group.name if task.group %></strong>
+    <div class="transaction-duration">
+      <p>Time Spent</p>
+      <p><%= task.amount %> minutes</p>
+    </div>
+  </div>
+
 <% end %>
 
 <%= link_to 'Back', groups_path %>

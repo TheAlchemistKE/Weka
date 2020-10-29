@@ -6,5 +6,6 @@ RSpec.describe Group, type: :model do
   end
   describe 'associations' do
     it { should belong_to(:user) }
+    it { should have_many(:tasks) }
   end
 end

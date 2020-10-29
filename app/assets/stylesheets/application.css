@@ -1,291 +1,239 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 @font-face {
-    font-family: ProximaNovaRegular;
-    src: url(../fonts/proxima_ssv/ProximaNova-Regular.otf);
+  font-family: ProximaNovaRegular;
+  src: url(../fonts/proxima_ssv/ProximaNova-Regular.otf);
 }
 
 @font-face {
-    font-family: ProximaNovaBold;
-    src: url(../fonts/proxima_ssv/proxima-bold.otf);
+  font-family: ProximaNovaBold;
+  src: url(../fonts/proxima_ssv/proxima-bold.otf);
 }
 
 a {
-    text-decoration: none;
-    color: #434b54;
-    padding: 0;
-    margin: 0;
+  text-decoration: none;
+  color: #434b54;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color: #434b54;
-    font-family: ProximaNovaRegular;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #434b54;
+  font-family: ProximaNovaRegular, serif;
 }
 
 .appbar {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #3778c2;
-    color: #fff;
-    padding: 0 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3778c2;
+  color: #fff;
+  padding: 0 10px;
 }
 
 .appbar h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .appbar a {
-    color: #fff;
-}
-.submit-btn {
-    color: #fff;
-    background-color: #3778c2 !important;
-    border: none;
-    margin-left: 30px;
-    font-size: 14px;
+  color: #fff;
 }
 
-.input_field:nth-child(1) {
-    margin-top: 20px;
+.submit-btn {
+  color: #fff;
+  background-color: #3778c2 !important;
+  border: none;
+  margin-left: 30px;
+  font-size: 14px;
 }
 
 .input_field {
-    margin: 5px 5px;
-    width: 90%;
-    outline: none;
-    border: 1px #ccc solid;
-    padding: 15px 10px;
-    border-radius: 2px;
+  margin: 5px 5px;
+  width: 90%;
+  outline: none;
+  border: 1px #ccc solid;
+  padding: 15px 10px;
+  border-radius: 2px;
+}
+
+.input_field:nth-child(1) {
+  margin-top: 20px;
 }
 
 .form-action {
-    display: -ms-grid;
-    display: grid;
-    margin: 0 auto;
-    text-align: center;
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .file-upload {
-    padding: 5px 10px !important;
+  padding: 5px 10px !important;
 }
 
 .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column nowrap;
-    flex-flow: column nowrap;
-    -ms-flex-line-pack: justify;
-    align-content: space-between;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: space-between;
+  justify-content: space-between;
 }
 
 .container h1 {
-    width: 100%;
-    position: absolute;
-    top: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-family: 'Lobster', cursive;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
 }
 
 .container .call-to-action {
-    width: 100%;
-    display: -ms-grid;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-}
-
-.container .call-to-action .btn {
-    padding: 20px 15px;
-    margin: 0 15px;
-    background-color: #3778c2;
-    color: #fff;
-}
-
-.alt-link {
-   position: relative;
-    padding: 20px 15px;
-    margin: 10px 15px;
-}
-
-.aggregate {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 10px 5px;
-    background-color: #ccc;
-}
-
-.aggregate p:nth-child(2) {
-    font-family: ProximaNovaBold;
-    color: #000;
-}
-
-.card {
-    width: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin: 10px auto;
-    border: 1px #ccc solid;
-    padding: 5px 10px;
-}
-
-.card img {
-    padding-top: 10px;
-    width: 150px;
-    height: 100px;
-}
-
-.card .time-spent {
-    font-family: ProximaNovaBold;
-    color: #000;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .btn {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #5fb523;
-    padding: 30px 30px;
-    position: relative;
-    bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #5fb523;
+  padding: 30px 30px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container .call-to-action .btn {
+  padding: 20px 15px;
+  margin: 0 15px;
+  background-color: #3778c2;
+  color: #fff;
+}
+
+.alt-link {
+  position: relative;
+  padding: 20px 15px;
+  margin: 10px 15px;
+}
+
+.aggregate {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 10px 5px;
+  background-color: #ccc;
+}
+
+.aggregate p:nth-child(2) {
+  font-family: ProximaNovaBold, serif;
+  color: #000;
+}
+
+.card {
+  width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 10px auto;
+  border: 1px #ccc solid;
+  padding: 5px 10px;
+}
+
+.card img {
+  padding-top: 10px;
+  width: 150px;
+  height: 100px;
+}
+
+.card .time-spent {
+  font-family: ProximaNovaBold, serif;
+  color: #000;
 }
 
 .btn .add-btn {
-    width: 80%;
-    padding: 15px 25px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #5fb523;
-    color: #fff;
-    border: 2px #fff solid;
-    text-transform: uppercase;
+  width: 80%;
+  padding: 15px 25px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #5fb523;
+  color: #fff;
+  border: 2px #fff solid;
+  text-transform: uppercase;
 }
 
 .transaction {
-    width: 90%;
-    border: 1px #ccc solid;
-    margin: 20px auto;
-    padding: 20px 15px;
+  width: 90%;
+  border: 1px #ccc solid;
+  margin: 20px auto;
+  padding: 20px 15px;
 }
 
-.transaction .transaction-branding, .transaction .transaction-duration {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-}
-
-.transaction .transaction-branding img, .transaction .transaction-duration img {
-    width: 150px;
-}
-
+.transaction .transaction-branding,
 .transaction .transaction-duration {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.profile-section {
-    background-color: #3778c2;
-    background-image: linear-gradient(315deg, #009ffd 0%, #3778c2 74%);
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
 }
 
 .profile-section img {
-    width: 200px;
-    border-radius: 50%;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.transaction .transaction-branding img,
+.transaction .transaction-duration img {
+  width: 150px;
+}
+
+.transaction .transaction-duration {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.profile-section {
+  background-color: #3778c2;
+  background-image: linear-gradient(315deg, #009ffd 0%, #3778c2 74%);
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
 }
 
 .profile-section ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: justify;
-    color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color: #fff;
 }
 
 .profile-section ul li {
-    padding: 20px 40px;
-    border-bottom: 1px #fff solid;
+  padding: 20px 40px;
+  border-bottom: 1px #fff solid;
 }
 
-.profile-section ul li a, .profile-section ul li .name {
-    color: #fff;
-    font-size: 18px;
+.profile-section ul li a,
+.profile-section ul li .name {
+  color: #fff;
+  font-size: 18px;
 }
 
 .profile-section ul li .name {
-    text-align: center;
+  text-align: center;
 }
 
 .profile-section ul li:nth-child(1) {
-    border: none;
+  border: none;
 }
-
-/*# sourceMappingURL=style.css.map */

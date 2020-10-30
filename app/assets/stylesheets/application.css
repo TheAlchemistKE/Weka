@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-
-@font-face {
-  font-family: ProximaNovaRegular;
-  src: url(../fonts/proxima_ssv/ProximaNova-Regular.otf);
-}
-
-@font-face {
-  font-family: ProximaNovaBold;
-  src: url(../fonts/proxima_ssv/proxima-bold.otf);
-}
+@import 'fonts.css';
 
 a {
   text-decoration: none;
@@ -23,7 +14,7 @@ body {
   padding: 0;
   margin: 0;
   color: #434b54;
-  font-family: ProximaNovaRegular, serif;
+  font-family: 'ProximaNovaRegular', serif;
 }
 
 .appbar {
@@ -134,7 +125,7 @@ body {
 }
 
 .aggregate p:nth-child(2) {
-  font-family: ProximaNovaBold, serif;
+  font-family: 'ProximaNovaBold', serif;
   color: #000;
 }
 
@@ -155,7 +146,7 @@ body {
 }
 
 .card .time-spent {
-  font-family: ProximaNovaBold, serif;
+  font-family: 'ProximaNovaBold', serif;
   color: #000;
 }
 

@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    @message = "Weka App"
+    @message = 'Weka App'
   end
 end

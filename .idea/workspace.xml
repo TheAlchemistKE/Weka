@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/task.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.rb" afterDir="false" />
-    </list>
+    <list default="true" id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="Edit out the application_controller.rb to allow for the addition of permitted params for devise." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +192,7 @@
       <workItem from="1603992986081" duration="14354000" />
       <workItem from="1604037410857" duration="4021000" />
       <workItem from="1604048975680" duration="3774000" />
-      <workItem from="1604059358191" duration="9369000" />
+      <workItem from="1604059358191" duration="9744000" />
     </task>
     <task id="LOCAL-00001" summary="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
       <created>1603745762878</created>

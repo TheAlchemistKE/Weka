@@ -10,7 +10,7 @@
 <div class="transaction">
   <div class="transaction-branding">
     <%= image_tag @task.icon if @task.icon.attached?%><br/>
-    <p><%= @task.name %></p>
+    <h2><%= @task.name %></h2>
   </div>
   <strong>Group: <%= @task.group.name if @task.group %></strong>
   <div class="transaction-duration">

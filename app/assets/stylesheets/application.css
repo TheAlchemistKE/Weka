@@ -63,8 +63,9 @@ body {
   text-align: center;
 }
 
-.file-upload {
-  padding: 5px 10px !important;
+.center {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .container {
@@ -101,6 +102,10 @@ body {
   bottom: 0;
   display: flex;
   justify-content: center;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
 }
 
 .container .call-to-action .btn {
@@ -168,11 +173,15 @@ body {
   padding: 20px 15px;
 }
 
-.transaction .transaction-branding,
 .transaction .transaction-duration {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+}
+
+.transaction-branding {
+  display: flex;
+  flex-flow: column;
 }
 
 .profile-section img {
@@ -183,12 +192,6 @@ body {
 .transaction .transaction-branding img,
 .transaction .transaction-duration img {
   width: 150px;
-}
-
-.transaction .transaction-duration {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .profile-section {
@@ -227,4 +230,34 @@ body {
 
 .profile-section ul li:nth-child(1) {
   border: none;
+}
+
+.upload-actions {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+input[type="file"] {
+  padding: 15px 20px;
+}
+
+.input.select.optional.task_group_id,
+.input.file.optional.task_icon,
+.input.file.optional.group_icon {
+  width: 100%;
+  text-align: left;
+  padding: 10px 15px;
+}
+
+select {
+  padding: 10px;
+  margin: 0;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  font-size: 16px;
 }

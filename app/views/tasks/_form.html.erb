@@ -12,12 +12,14 @@
                 label: false,
                 placeholder: 'Task Duration',
                 input_html: { class: "input_field", id: "amount" } %>
-    <%= f.input :icon, as: :file %>
-    <%= f.input :group_id, :collection => @groups, :label_method => :name, :value_method => :id,:label => "Group" ,:include_blank => true %>
+    <div class="upload-actions">
+      <%= f.input :icon, as: :file, input_html: { class: "file-upload" } %>
+      <%= f.input :group_id, :collection => @groups, :label_method => :name, :value_method => :id,:label => "Group" ,:include_blank => true, input_html: { class: "group-associations" } %>
+    </div>
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= f.button :submit, input_html: { class: "send-button" } %>
   </div>
 <% end %>
 

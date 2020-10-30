@@ -12,17 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/proxima_ssv/Proxima Nova Thin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/proxima_ssv/ProximaNova-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-Regular.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/proxima_ssv/proxima-bold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/proxima-bold.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/external_transactions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/groups.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/profile.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/sessions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/tasks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/groups/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/groups/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +192,8 @@
       <workItem from="1603977661929" duration="788000" />
       <workItem from="1603985588128" duration="4656000" />
       <workItem from="1603992986081" duration="14354000" />
-      <workItem from="1604037410857" duration="3203000" />
+      <workItem from="1604037410857" duration="4021000" />
+      <workItem from="1604048975680" duration="3306000" />
     </task>
     <task id="LOCAL-00001" summary="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
       <created>1603745762878</created>
@@ -242,38 +237,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1294.741@72.27.1294.741" timestamp="1603465087626" />
-    <state width="1294" height="537" key="GridCell.Tab.0.bottom" timestamp="1604038308000">
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom" timestamp="1604049216099">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604038308000" />
-    <state width="1294" height="537" key="GridCell.Tab.0.center" timestamp="1604038307998">
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
+    <state width="1294" height="537" key="GridCell.Tab.0.center" timestamp="1604049216099">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1604038307998" />
-    <state width="1294" height="537" key="GridCell.Tab.0.left" timestamp="1604038307996">
+    <state width="1294" height="537" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
+    <state width="1294" height="537" key="GridCell.Tab.0.left" timestamp="1604049216098">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1604038307996" />
-    <state width="1294" height="537" key="GridCell.Tab.0.right" timestamp="1604038307999">
+    <state width="1294" height="537" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1604049216098" />
+    <state width="1294" height="537" key="GridCell.Tab.0.right" timestamp="1604049216099">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1604038307999" />
-    <state width="1294" height="537" key="GridCell.Tab.1.bottom" timestamp="1604038308007">
+    <state width="1294" height="537" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom" timestamp="1604049216100">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604038308007" />
-    <state width="1294" height="537" key="GridCell.Tab.1.center" timestamp="1604038308003">
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604049216100" />
+    <state width="1294" height="537" key="GridCell.Tab.1.center" timestamp="1604049216100">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1604038308003" />
-    <state width="1294" height="537" key="GridCell.Tab.1.left" timestamp="1604038308001">
+    <state width="1294" height="537" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1604049216100" />
+    <state width="1294" height="537" key="GridCell.Tab.1.left" timestamp="1604049216099">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1604038308001" />
-    <state width="1294" height="537" key="GridCell.Tab.1.right" timestamp="1604038308005">
+    <state width="1294" height="537" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
+    <state width="1294" height="537" key="GridCell.Tab.1.right" timestamp="1604049216100">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1604038308005" />
+    <state width="1294" height="537" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1604049216100" />
     <state width="1294" height="611" key="GridCell.Tab.2.bottom" timestamp="1603891113882">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -308,6 +303,6 @@
     <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741@72.27.1294.741" timestamp="1603468868875" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Weka@Development__Weka.rcov" NAME="Development: Weka Coverage Results" MODIFIED="1604038247456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Weka" />
+    <SUITE FILE_PATH="coverage/Weka@Development__Weka.rcov" NAME="Development: Weka Coverage Results" MODIFIED="1604049210112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Weka" />
   </component>
 </project>

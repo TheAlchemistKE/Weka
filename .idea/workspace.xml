@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="Edit out the application_controller.rb to allow for the addition of permitted params for devise." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1jFbrATe0ldTur4ZYVeDCmTPShs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/app/assets" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: Weka">
+    <configuration name="Development: Weka" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="Weka" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: Weka" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="Weka" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: Weka" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="Weka" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: Weka" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="Weka" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="" />
+      <created>1603402983861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603402983861</updated>
+      <workItem from="1603402985068" duration="2697000" />
+      <workItem from="1603405713014" duration="6067000" />
+      <workItem from="1603461083461" duration="15321000" />
+      <workItem from="1603485471059" duration="1303000" />
+      <workItem from="1603612675891" duration="1101000" />
+      <workItem from="1603711798760" duration="8814000" />
+      <workItem from="1603869289995" duration="6384000" />
+      <workItem from="1603888914578" duration="3859000" />
+      <workItem from="1603951247792" duration="11261000" />
+      <workItem from="1603977373679" duration="240000" />
+      <workItem from="1603977661929" duration="788000" />
+      <workItem from="1603985588128" duration="4656000" />
+      <workItem from="1603992986081" duration="14354000" />
+      <workItem from="1604037410857" duration="4021000" />
+      <workItem from="1604048975680" duration="3774000" />
+      <workItem from="1604059358191" duration="10364000" />
+    </task>
+    <task id="LOCAL-00001" summary="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
+      <created>1603745762878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603745762878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edit out the application_controller.rb to allow for the addition of permitted params for devise." />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit out the application_controller.rb to allow for the addition of permitted params for devise." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603403101520">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1603403101520" />
+    <state x="360" y="189" width="707" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603994539768">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="360" y="189" width="707" height="423" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741@72.27.1294.741" timestamp="1603994539768" />
+    <state x="452" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603465087626">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="452" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1294.741@72.27.1294.741" timestamp="1603465087626" />
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom" timestamp="1604060876298">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604060876297" />
+    <state width="1294" height="537" key="GridCell.Tab.0.center" timestamp="1604060876292">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1604060876292" />
+    <state width="1294" height="537" key="GridCell.Tab.0.left" timestamp="1604060876289">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1604060876289" />
+    <state width="1294" height="537" key="GridCell.Tab.0.right" timestamp="1604060876295">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1604060876295" />
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom" timestamp="1604060876302">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604060876302" />
+    <state width="1294" height="537" key="GridCell.Tab.1.center" timestamp="1604060876300">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1604060876300" />
+    <state width="1294" height="537" key="GridCell.Tab.1.left" timestamp="1604060876299">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1604060876299" />
+    <state width="1294" height="537" key="GridCell.Tab.1.right" timestamp="1604060876301">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="537" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1604060876301" />
+    <state width="1294" height="611" key="GridCell.Tab.2.bottom" timestamp="1603891113882">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="611" key="GridCell.Tab.2.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603891113882" />
+    <state width="1294" height="611" key="GridCell.Tab.2.center" timestamp="1603891113878">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="611" key="GridCell.Tab.2.center/72.27.1294.741@72.27.1294.741" timestamp="1603891113878" />
+    <state width="1294" height="611" key="GridCell.Tab.2.left" timestamp="1603891113876">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="611" key="GridCell.Tab.2.left/72.27.1294.741@72.27.1294.741" timestamp="1603891113876" />
+    <state width="1294" height="611" key="GridCell.Tab.2.right" timestamp="1603891113881">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1294" height="611" key="GridCell.Tab.2.right/72.27.1294.741@72.27.1294.741" timestamp="1603891113881" />
+    <state x="333" y="27" width="762" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604039411124">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="333" y="27" width="762" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1294.741@72.27.1294.741" timestamp="1604039411124" />
+    <state x="498" y="310" width="431" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603475469609">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="498" y="310" width="431" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1603475469609" />
+    <state x="411" y="120" width="616" height="554" key="find.popup" timestamp="1603409393506">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="411" y="120" width="616" height="554" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1603409393506" />
+    <state x="593" y="253" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1604060789561">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="593" y="253" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/72.27.1294.741@72.27.1294.741" timestamp="1604060789561" />
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603468868875">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741@72.27.1294.741" timestamp="1603468868875" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Weka@Development__Weka.rcov" NAME="Development: Weka Coverage Results" MODIFIED="1604060464627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Weka" />
+  </component>
+</project>

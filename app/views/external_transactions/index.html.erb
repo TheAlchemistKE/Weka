@@ -1,0 +1,34 @@
+<nav>
+  <div class="appbar">
+    <%= link_to profile_index_path do %>
+      <i class="fas fa-bars"></i>
+    <% end %>
+    <h3>Transactions</h3>
+    <a href="#"><i class="fas fa-search"></i></a>
+  </div>
+</nav>
+<div class="aggregate">
+  <p>Time Spent</p>
+  <p class="total-hours"><%= @total_time %> minutes</p>
+</div>
+<section class="transactions">
+  <% @tasks.each do |task| %>
+    <%= link_to task do %>
+      <div class="card">
+        <%= image_tag(task.icon) if task.icon.attached? %>
+        <div class="card-details">
+          <p class="title"><%= task.name %></p>
+          <p class="task-date"><%= task.created_at %></p>
+        </div>
+        <p class="time-spent"><%= task.amount %> minutes</p>
+      </div>
+    <% end %>
+  <% end %>
+
+  <div class="btn">
+    <%= link_to 'New Task', new_task_path, class: 'add-btn' %>
+  </div>
+
+</section>
+
+

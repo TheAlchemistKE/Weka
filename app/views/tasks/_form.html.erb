@@ -1,0 +1,25 @@
+
+<%= simple_form_for(@task, html: {multipart: true }) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <div class="form-action">
+    <%= f.input :name,
+                label: false,
+                placeholder: 'Task Name',
+                input_html: { class: "input_field" } %>
+    <%= f.input :amount,
+                label: false,
+                placeholder: 'Task Duration',
+                input_html: { class: "input_field", id: "amount" } %>
+    <div class="upload-actions">
+      <%= f.input :icon, as: :file, input_html: { class: "file-upload" } %>
+      <%= f.input :group_id, :collection => @groups, :label_method => :name, :value_method => :id,:label => "Group" ,:include_blank => true, input_html: { class: "group-associations" } %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, input_html: { class: "send-button" } %>
+  </div>
+<% end %>
+

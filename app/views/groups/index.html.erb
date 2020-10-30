@@ -1,0 +1,27 @@
+<nav>
+  <div class="appbar">
+    <%= link_to profile_index_path do %>
+      <i class="fas fa-bars"></i>
+    <% end %>
+    <h3>Groups</h3>
+    <a href="login.html"><i class="fas fa-search"></i></a>
+  </div>
+</nav>
+<section class="transactions">
+  <% @groups.each do |group| %>
+    <%= link_to group do %>
+      <div class="card" >
+        <%= image_tag(group.icon) if group.icon.attached? %>
+        <div class="card-details">
+          <p class="title"><%= group.name %></p>
+          <p class="task-date"><%= group.created_at.strftime("%Y-%m-%e") %></p>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+
+  <div class="btn">
+    <%= link_to 'New Group', new_group_path, class: 'add-btn' %>
+  </div>
+
+</section>

@@ -46,6 +46,12 @@ run rails s
 ```
 Open `http://localhost:3000/` in your browser.
 
+### Local AWS Installation.
+- To change the AWS credentials on this application, you need to do the following:
+1. To your `Gemfile` add `gem 'aws-sdk-s3', require: false`
+2. Run `bundle install`
+3. Edit `credentials.yml.enc` and add your `access_id` and `secret_key`. This can be accomplished by running `rails credentials:edit`
+
 ### Run tests
 To run the tests:
 - Run `rspec --format documentation`

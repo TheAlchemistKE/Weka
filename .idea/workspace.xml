@@ -12,11 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="86cabebf-652d-4c89-80d3-1a95e175361d" name="Default Changelist" comment="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/groups/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/groups/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tasks/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tasks/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tasks/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/group.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/group.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/task.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/groups/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/groups/_form.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -193,7 +197,8 @@
       <workItem from="1603985588128" duration="4656000" />
       <workItem from="1603992986081" duration="14354000" />
       <workItem from="1604037410857" duration="4021000" />
-      <workItem from="1604048975680" duration="3306000" />
+      <workItem from="1604048975680" duration="3774000" />
+      <workItem from="1604059358191" duration="7675000" />
     </task>
     <task id="LOCAL-00001" summary="Edit out the application_controller.rb to allow for the addition of permitted params for devise.">
       <created>1603745762878</created>
@@ -237,38 +242,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1294.741@72.27.1294.741" timestamp="1603465087626" />
-    <state width="1294" height="537" key="GridCell.Tab.0.bottom" timestamp="1604049216099">
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom" timestamp="1604060876298">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
-    <state width="1294" height="537" key="GridCell.Tab.0.center" timestamp="1604049216099">
+    <state width="1294" height="537" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604060876297" />
+    <state width="1294" height="537" key="GridCell.Tab.0.center" timestamp="1604060876292">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
-    <state width="1294" height="537" key="GridCell.Tab.0.left" timestamp="1604049216098">
+    <state width="1294" height="537" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1604060876292" />
+    <state width="1294" height="537" key="GridCell.Tab.0.left" timestamp="1604060876289">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1604049216098" />
-    <state width="1294" height="537" key="GridCell.Tab.0.right" timestamp="1604049216099">
+    <state width="1294" height="537" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1604060876289" />
+    <state width="1294" height="537" key="GridCell.Tab.0.right" timestamp="1604060876295">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
-    <state width="1294" height="537" key="GridCell.Tab.1.bottom" timestamp="1604049216100">
+    <state width="1294" height="537" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1604060876295" />
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom" timestamp="1604060876302">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604049216100" />
-    <state width="1294" height="537" key="GridCell.Tab.1.center" timestamp="1604049216100">
+    <state width="1294" height="537" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1604060876302" />
+    <state width="1294" height="537" key="GridCell.Tab.1.center" timestamp="1604060876300">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1604049216100" />
-    <state width="1294" height="537" key="GridCell.Tab.1.left" timestamp="1604049216099">
+    <state width="1294" height="537" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1604060876300" />
+    <state width="1294" height="537" key="GridCell.Tab.1.left" timestamp="1604060876299">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1604049216099" />
-    <state width="1294" height="537" key="GridCell.Tab.1.right" timestamp="1604049216100">
+    <state width="1294" height="537" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1604060876299" />
+    <state width="1294" height="537" key="GridCell.Tab.1.right" timestamp="1604060876301">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="537" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1604049216100" />
+    <state width="1294" height="537" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1604060876301" />
     <state width="1294" height="611" key="GridCell.Tab.2.bottom" timestamp="1603891113882">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -297,12 +302,16 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="411" y="120" width="616" height="554" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1603409393506" />
+    <state x="593" y="253" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1604060789561">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="593" y="253" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/72.27.1294.741@72.27.1294.741" timestamp="1604060789561" />
     <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603468868875">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741@72.27.1294.741" timestamp="1603468868875" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Weka@Development__Weka.rcov" NAME="Development: Weka Coverage Results" MODIFIED="1604049210112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Weka" />
+    <SUITE FILE_PATH="coverage/Weka@Development__Weka.rcov" NAME="Development: Weka Coverage Results" MODIFIED="1604060464627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Weka" />
   </component>
 </project>

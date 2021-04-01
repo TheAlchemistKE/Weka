@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Weka
+The main objective of this project was demonstrate the technical skills required to build a fully functional MVP of a real world project. Weka is a task management application that allows one to create tasks and groups that serve as projects that other users can contribute to.
 
 ![App Preview](./tasks.png)
 
-> The main objective of this project was demonstrate the technical skills required to build a fully functional MVP of a real world project. Weka is a task management application that allows one to create tasks and groups that serve as projects that other users can contribute to.
 
 - Below is the UML diagram for the Weka Application.
 ![App Preview](./Weka%20App%20UML.png)
